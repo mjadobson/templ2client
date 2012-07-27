@@ -1,0 +1,13 @@
+{
+  "name": "templ2client",
+  "description": "This is a simple middleware that collects all of the template files in a directory and turns them into a client file with a corresponding nested template object.",
+  "version": "0.0.1",
+  "author": "Matt Dobson <mjadobson@gmail.com>",
+  "dependencies": {
+    "async": "*",
+    "express": "*"
+  },
+  "keywords": ["template", "templates", "templating", "client", "middleware"],
+  "repository": "git://github.com/sugarstack/templ2client",
+  "main": "lib"
+}
