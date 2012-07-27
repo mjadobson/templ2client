@@ -25,10 +25,10 @@ Then include the generated script file in your html:
 Config
 ------
 
-src: Source directory of files. (*Required)
-dest: Destination path for generated file. (*Required)
-ext: File extension to look for. (Default = ".ejs")
-varName: Client's variable name for templates object. (Default = "Templates")
+* `src`: Source directory of files. (Required)
+* `dest`: Destination path for generated file. (Required)
+* `ext`: File extension to look for. (Default = ".ejs")
+* `varName`: Client's variable name for templates object. (Default = "Templates")
 
 Todo
 ----
