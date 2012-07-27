@@ -6,6 +6,35 @@ Intro
 
 This is a simple middleware that collects all of the template files in a directory and turns them into a client file with a corresponding nested template object.
 
+Thus, a directory like this...
+
+	views/
+		posts/
+			add.ejs
+			edit.ejs
+			view.ejs
+		users/
+			list.ejs
+			view.ejs
+	index.ejs
+	layout.ejs
+
+...will be transformed into this:
+
+	var Templates = {
+		posts: {
+			add: "..",
+			edit: "..",
+			view: ".."
+		},
+		users: {
+			list: "..",
+			view: ".."
+		},
+		index: "..",
+		layout: ".."
+	};
+
 Usage
 -----
 
