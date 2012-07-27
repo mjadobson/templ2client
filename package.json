@@ -4,8 +4,7 @@
   "version": "0.0.1",
   "author": "Matt Dobson <mjadobson@gmail.com>",
   "dependencies": {
-    "async": "*",
-    "express": "*"
+    "async": "*"
   },
   "keywords": ["template", "templates", "templating", "client", "middleware"],
   "repository": "git://github.com/sugarstack/templ2client",
