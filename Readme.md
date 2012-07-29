@@ -16,8 +16,8 @@ Thus, a directory like this...
 		users/
 			list.ejs
 			view.ejs
-	index.ejs
-	layout.ejs
+		index.ejs
+		layout.ejs
 
 ...will be transformed into this:
 
