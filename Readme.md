@@ -65,3 +65,4 @@ Todo
 * Write tests
 * Caching
 * Black/Whitelisting
+* Provide hook to compile template files (eg: .jade)
